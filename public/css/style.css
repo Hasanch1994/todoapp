@@ -5,3 +5,48 @@
     url('../fonts/Yekan.eot') format('eot'),
     url('../fonts/Yekan.otf') format('otf')
 }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Byekan' !important;
+    background-image: url('../images/one.jpg');
+  }
+  
+
+.headerc{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(204, 204, 204, 0.205);
+  }
+
+.addcard{
+display: flex;
+margin: 0 auto;
+align-items: right;
+justify-content: center;
+margin-top: 20px;
+  }
+
+  .addcard h5{
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+  }
+
+  input{
+      text-align: right;
+  }
+
+  .taskitem{
+      width: 100%;  
+    }
+
+    .ptasks{
+        width: 100%;
+    }
